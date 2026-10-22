@@ -173,7 +173,7 @@ html {
 }
 
 body {
-  background: #fff;
+  background: #f3e5f5
 }
 
 body.is-preload *,
@@ -193,7 +193,7 @@ body,
 input,
 select,
 textarea {
-  color: #888;
+  color: #3c3b3b;
   font-family: "Lato", sans-serif;
   font-size: 16pt;
   font-weight: 400;
@@ -220,7 +220,7 @@ a {
 
 a:hover {
   border-bottom-color: transparent;
-  color: #b8947c !important;
+  color: #1f3b63!important;
 }
 
 strong,
@@ -1887,7 +1887,7 @@ header h6 + p {
 }
 
 header.major h2 {
-  color: #b8947c;
+  color: #1f3b63;
   font-size: 3.5em;
 }
 
@@ -2502,7 +2502,7 @@ ul.feature-icons li:before {
 }
 
 ul.feature-icons li:before {
-  background: #b8947c;
+  background: #1f3b63;
   border-radius: 100%;
   color: #ffffff;
   display: block;
@@ -2549,13 +2549,13 @@ table {
 }
 
 table tbody tr {
-  border: solid 2px #f4f4f4;
+  border: solid 2px #d6e9f8;
   border-left: 0;
   border-right: 0;
 }
 
 table tbody tr:nth-child(2n + 1) {
-  background-color: #fafafa;
+  background-color: #d6e9f8;
 }
 
 table td {
@@ -2571,11 +2571,11 @@ table th {
 }
 
 table thead {
-  border-bottom: solid 4px #e4e4e4;
+  border-bottom: solid 4px #f3e5f5;
 }
 
 table tfoot {
-  border-top: solid 4px #e4e4e4;
+  border-top: solid 4px #f3e5f5;
 }
 
 table.alt {
@@ -2583,7 +2583,7 @@ table.alt {
 }
 
 table.alt tbody tr td {
-  border: solid 2px #e4e4e4;
+  border: solid 2px #f3e5f5;
   border-left-width: 0;
   border-top-width: 0;
 }
@@ -2809,8 +2809,8 @@ input[type="button"]:disabled,
   -webkit-justify-content: space-between;
   -ms-justify-content: space-between;
   justify-content: space-between;
-  background: #b8947c;
-  color: #eadfd8;
+  background: #f5ecd7;
+  color: #5c4a3e;
   height: 100%;
   overflow-y: auto;
   position: fixed;
@@ -2826,7 +2826,7 @@ input[type="button"]:disabled,
 #header h4,
 #header h5,
 #header h6 {
-  color: #ffffff;
+  color: #5c4a3e;
 }
 
 #header h1 a,
@@ -2835,7 +2835,7 @@ input[type="button"]:disabled,
 #header h4 a,
 #header h5 a,
 #header h6 a {
-  color: #ffffff;
+  color: #5c4a3e;
 }
 
 #header header p {
@@ -2843,11 +2843,11 @@ input[type="button"]:disabled,
 }
 
 #header a {
-  color: #eadfd8;
+  color: #5c4a3e;
 }
 
 #header a:hover {
-  color: #ffffff !important;
+  color: #b8947c !important;
 }
 
 #header > header {
@@ -2870,7 +2870,7 @@ input[type="button"]:disabled,
 }
 
 #header > header p {
-  color: #eadfd8;
+  color: #5c4a3e;
   font-style: italic;
   margin: 1em 0 0 0;
 }
@@ -2908,7 +2908,7 @@ input[type="button"]:disabled,
 }
 
 #header > nav ul li {
-  border-top: solid 2px #937663;
+  border-top: solid 2px #e0d4b8;
   display: block;
   padding: 0;
 }
@@ -2919,15 +2919,15 @@ input[type="button"]:disabled,
   -ms-transition: none;
   transition: none;
   border: 0;
-  color: #ffffff !important;
+  color: #5c4a3e !important;
   display: block;
   padding: 0.85em 0;
   text-decoration: none;
 }
 
 #header > nav ul li a.active {
-  background: #fff;
-  color: #b8947c !important;
+  background: #5c4a3e;
+  color: #f5ecd7 !important;
 }
 
 #header > nav ul li:first-child {
@@ -2937,7 +2937,7 @@ input[type="button"]:disabled,
 /* Wrapper */
 
 #wrapper {
-  background: #fff;
+  background: #e3f2fd;
   padding-right: 23em;
 }
 
@@ -2958,7 +2958,7 @@ input[type="button"]:disabled,
 /* Footer */
 
 #footer {
-  background: #fafafa;
+  background: #d6e9f8;
   border-top: 0;
   color: #c0c0c0;
   overflow: hidden;
@@ -3448,4 +3448,172 @@ input[type="button"]:disabled,
   .button {
     padding: 0;
   }
+}
+/* ===== Ma palette ===== */
+
+/* Fond de la page */
+body,
+#wrapper {
+  background: #f7eee3;
+}
+
+/* Titres et liens */
+h1, h2, h3, h4, h5, h6,
+strong, b,
+label,
+table th {
+  color: #7a4543;
+}
+
+header.major h2 {
+  color: #b97d7b;
+}
+
+header.major h2 + p {
+  color: #7a4543;
+}
+
+a:hover {
+  color: #b97d7b !important;
+}
+
+/* Lignes de séparation entre les sections */
+#main > section {
+  border-top-color: #ead9c6;
+}
+
+/* Menu de gauche */
+#header {
+  background: #ecc4c3;
+  color: #7a4543;
+}
+
+#header h1,
+#header h1 a,
+#header a,
+#header > header p {
+  color: #7a4543;
+}
+
+#header a:hover {
+  color: #b97d7b !important;
+}
+
+#header > nav ul li {
+  border-top: solid 2px #f7eee3;
+}
+
+#header > nav ul li a {
+  color: #7a4543 !important;
+}
+
+#header > nav ul li a.active {
+  background: #7a4543;
+  color: #ecc4c3 !important;
+}
+
+#header > footer .icons li a {
+  color: #7a4543;
+}
+
+/* Cercles d'icônes */
+ul.feature-icons li:before {
+  background: #b97d7b;
+  color: #ffffff;
+}
+
+/* Boutons */
+.button.primary {
+  background-color: #b97d7b;
+}
+
+.button.primary:hover {
+  background-color: #ecc4c3;
+  color: #7a4543 !important;
+}
+
+.button.primary:active {
+  background-color: #7a4543;
+}
+
+/* Tableaux */
+table tbody tr {
+  border-color: #928e5e;
+}
+
+table tbody tr:nth-child(2n + 1) {
+  background-color: #928e5e;
+}
+
+table thead,
+table tfoot {
+  border-color: #928e5e;
+}
+
+/* Footer */
+#footer {
+  background: #928e5e;
+  color: #f7eee3;
+}
+
+/* Barre du haut sur mobile */
+#titleBar {
+  background: #b97d7b;
+}
+
+#titleBar .toggle:before {
+  background: #7a4543;
+}
+/* Chat animé : sort la tête, regarde, se cache */
+.chat-anime {
+  position: fixed;
+  right: 30px;
+  bottom: 0;
+  width: 90px;
+  overflow: hidden;
+  z-index: 1000;
+  pointer-events: none;
+}
+
+.chat-anime svg {
+  width: 100%;
+  height: auto;
+  display: block;
+  animation: sortir-cacher 10s ease-in-out infinite;
+}
+
+.chat-anime .tete {
+  transform-origin: 60px 86px;
+  animation: regarder 10s ease-in-out infinite;
+}
+
+.chat-anime .yeux {
+  animation: yeux-bougent 10s ease-in-out infinite;
+}
+
+/* Monte à 1 s, reste visible, redescend vers 4 s */
+@keyframes sortir-cacher {
+  0%, 10%  { transform: translateY(105%); }
+  18%, 40% { transform: translateY(0); }
+  48%, 100% { transform: translateY(105%); }
+}
+
+/* Tourne la tête : droite, puis gauche */
+@keyframes regarder {
+  0%, 19%   { transform: rotate(0deg); }
+  23%, 27%  { transform: rotate(7deg); }
+  31%, 35%  { transform: rotate(-7deg); }
+  39%, 100% { transform: rotate(0deg); }
+}
+
+/* Les yeux suivent le mouvement */
+@keyframes yeux-bougent {
+  0%, 19%   { transform: translateX(0); }
+  23%, 27%  { transform: translateX(4px); }
+  31%, 35%  { transform: translateX(-4px); }
+  39%, 100% { transform: translateX(0); }
+}
+
+@media (max-width: 736px) {
+  .chat-anime { display: none; }
 }
